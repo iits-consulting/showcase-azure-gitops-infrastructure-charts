@@ -2,7 +2,7 @@ global:
   stage: dev
   projectName: showcase-infrastructure-charts
   source:
-    repoURL: https://gitlab.com/impresssol/pfau/devops/showcase-infrastructure-charts
+    repoURL: https://github.com/iits-consulting/showcase-azure-gitops-infrastructure-charts.git
     targetRevision: working
     appsBasePath: stages/dev/showcase-infrastructure-charts/apps
 
