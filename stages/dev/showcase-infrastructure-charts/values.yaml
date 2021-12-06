@@ -8,3 +8,9 @@ global:
 
 predator:
   namespace: predator
+traefik:
+  namespace: routing
+  ignoreDifferences:
+    - kind: Service
+      jsonPointers:
+        - /metadata/annotations
