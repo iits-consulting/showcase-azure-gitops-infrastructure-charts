@@ -1,0 +1,10 @@
+global:
+  stage: dev
+  projectName: showcase-infrastructure-charts
+  source:
+    repoURL: https://gitlab.com/impresssol/pfau/devops/showcase-infrastructure-charts
+    targetRevision: working
+    appsBasePath: stages/dev/showcase-infrastructure-charts/apps
+
+predator:
+  namespace: predator

@@ -1,0 +1,5 @@
+apiVersion: v2
+name: showcase-infrastructure-charts
+description: showcase-infrastructure services managed by argo-cd
+type: application
+version: 0.1.0
