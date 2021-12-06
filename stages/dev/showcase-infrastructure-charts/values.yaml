@@ -14,3 +14,5 @@ traefik:
     - kind: Service
       jsonPointers:
         - /metadata/annotations
+cert-manager:
+  namespace: cert-manager
